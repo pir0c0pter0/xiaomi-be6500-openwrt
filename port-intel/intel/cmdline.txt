@@ -1,0 +1,1 @@
+ubi.mtd=rootfs root=mtd:ubi_rootfs rootfstype=squashfs cnss2.enable_mlo_support=1 rootwait uart_en=1 vmalloc=1G

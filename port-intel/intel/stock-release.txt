@@ -1,0 +1,7 @@
+DISTRIB_ID='OpenWrt'
+DISTRIB_RELEASE='18.06-SNAPSHOT'
+DISTRIB_REVISION='unknown'
+DISTRIB_TARGET='ipq53xx/ipq53xx_32'
+DISTRIB_ARCH='arm_cortex-a7_neon-vfpv4'
+DISTRIB_DESCRIPTION='OpenWrt 18.06-SNAPSHOT unknown'
+DISTRIB_TAINTS='no-all busybox override'

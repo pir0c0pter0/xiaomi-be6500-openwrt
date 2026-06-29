@@ -1,0 +1,3 @@
+drwxr-xr-x    2 root     root             0 Jun 29 09:23 .
+drwxr-xr-x   45 root     root             0 Jun 23 18:54 ..
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 rgb -> ../../devices/platform/soc/soc:pwm-rgb/leds/rgb

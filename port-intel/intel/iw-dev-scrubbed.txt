@@ -1,0 +1,87 @@
+phy#5
+	Interface wl0
+		ifindex 51
+		wdev 0x50000000a
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		ssid REDACTED_SSID
+		type AP
+		channel 48 (5240 MHz), width: 160 MHz, center1: 5250 MHz
+		txpower 31.00 dBm
+	Interface wl5
+		ifindex 49
+		wdev 0x500000009
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		ssid REDACTED_SSID
+		type AP
+		channel 48 (5240 MHz), width: 160 MHz, center1: 5250 MHz
+		txpower 31.00 dBm
+	Interface wifi1
+		ifindex 18
+		wdev 0x500000001
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type AP
+		channel 48 (5240 MHz), width: 160 MHz, center1: 5250 MHz
+phy#4
+	Interface wl1
+		ifindex 50
+		wdev 0x40000000b
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		ssid REDACTED_SSID
+		type AP
+		channel 1 (2412 MHz), width: 40 MHz, center1: 2422 MHz
+		txpower 28.00 dBm
+	Interface wl4
+		ifindex 47
+		wdev 0x40000000a
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		ssid REDACTED_SSID
+		type AP
+		channel 1 (2412 MHz), width: 40 MHz, center1: 2422 MHz
+		txpower 28.00 dBm
+	Interface wl13
+		ifindex 41
+		wdev 0x400000007
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		ssid REDACTED_SSID
+		type AP
+		channel 1 (2412 MHz), width: 40 MHz, center1: 2422 MHz
+		txpower 28.00 dBm
+	Interface wifi0
+		ifindex 16
+		wdev 0x400000001
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type AP
+		channel 1 (2412 MHz), width: 40 MHz, center1: 2422 MHz
+phy#3
+	Interface bhsta_mld0
+		ifindex 27
+		wdev 0x300000004
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type managed
+		4addr: on
+	Interface bhap_mld0
+		ifindex 26
+		wdev 0x300000003
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type AP
+	Interface hostap_mld0
+		ifindex 25
+		wdev 0x300000002
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type AP
+	Interface mld-wifi0
+		ifindex 15
+		wdev 0x300000001
+		addr XX:XX:XX:XX:XX:XX
+		mld_addr XX:XX:XX:XX:XX:XX
+		type AP

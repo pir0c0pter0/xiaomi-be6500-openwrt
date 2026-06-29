@@ -1,0 +1,12 @@
+[1188753.063292] nss_ppe_lag_update_slave[242]:99375000: Interface wl1 removed from LAG ID=1
+[1188754.416730] nss_ppe_lag_update_slave[242]:99375000: Interface wl0 removed from LAG ID=1
+[1188755.291032] wlan: [15991:I:ANY] osif_pltfrm_create_ppe_vp: vp user type: passive vpai.core_mask: 7 target type: 35 vpnum: 64 icp_flags: 100001
+[1188755.291076] wlan: [15991:I:ANY] osif_pltfrm_create_ppe_vp_802_3_redir_vap: 
+[1188757.961038] wlan: [16211:I:ANY] osif_pltfrm_create_ppe_vp: vp user type: ds vpai.core_mask: 7 target type: 32 vpnum: 67 icp_flags: 400001
+[1188757.961082] wlan: [16211:I:ANY] osif_pltfrm_create_ppe_vp_802_3_redir_vap: 
+[1188761.357008] wlan: [6330:I:ANY] wlan_cfg80211_chan_to_phymode: band:0 width: 2 channel_cfreq: 2412 center_freq1: 2422 chandef.center_freq2: 0 flags: 288
+[1188761.384506] wlan: [6330:I:ANY] Phymode: 37 
+[1188763.850264] wlan: [6330:I:ANY] wlan_cfg80211_chan_to_phymode: band:1 width: 3 channel_cfreq: 5240 center_freq1: 5210 chandef.center_freq2: 0 flags: 512
+[1188763.877482] wlan: [6330:I:ANY] Phymode: 41 
+[1188864.975641] ppe_port_vsi_get[477]:INFO:VSI is not configured on port 0x2
+[1188865.043841] ppe_port_vsi_get[477]:INFO:VSI is not configured on port 0x2

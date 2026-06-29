@@ -1,0 +1,2 @@
+== /sys/class/leds/rgb/
+[none] timer heartbeat default-on netdev pattern 

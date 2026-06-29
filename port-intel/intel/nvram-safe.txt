@@ -1,0 +1,25 @@
+CountryCode=CN
+Router_unconfigured=0
+boot_wait=on
+bootargs=ubi.mtd=rootfs root=mtd:ubi_rootfs rootfstype=squashfs cnss2.enable_mlo_support=1 rootwait
+bootcmd=bootmiwifi
+bootdelay=3
+bootmenu_delay=5
+fdt_high=0x48500000
+fdtcontroladdr=4a4f4004
+flag_boot_rootfs=0
+flag_boot_success=1
+flag_boot_type=2
+flash_type=11
+fsbootargs=ubi.mtd=rootfs root=mtd:ubi_rootfs rootfstype=squashfs cnss2.enable_mlo_support=1
+machid=8060001
+mode=Router
+model=RN02
+mtdids=nand0=nand0
+restore_defaults=0
+soc_hw_version=201a0101
+soc_version_major=1
+soc_version_minor=1
+ssh_en=1
+telnet_en=0
+uart_en=1

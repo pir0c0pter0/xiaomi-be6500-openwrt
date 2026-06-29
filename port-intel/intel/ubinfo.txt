@@ -1,0 +1,57 @@
+UBI version:                    1
+Count of UBI devices:           2
+UBI control device major/minor: 10:60
+Present UBI devices:            ubi0, ubi1
+
+ubi0
+Volumes count:                           2
+Logical eraseblock size:                 126976 bytes, 124.0 KiB
+Total amount of logical eraseblocks:     336 (42663936 bytes, 40.6 MiB)
+Amount of available logical eraseblocks: 24 (3047424 bytes, 2.9 MiB)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  20
+Current maximum erase counter value:     2
+Minimum input/output unit size:          2048 bytes
+Character device major/minor:            240:0
+Present volumes:                         0, 1
+
+Volume ID:   0 (on ubi0)
+Type:        static
+Alignment:   1
+Size:        83 LEBs (10539008 bytes, 10.0 MiB)
+Data bytes:  3338006 bytes (3.1 MiB)
+State:       OK
+Name:        kernel
+Character device major/minor: 240:1
+-----------------------------------
+Volume ID:   1 (on ubi0)
+Type:        dynamic
+Alignment:   1
+Size:        205 LEBs (26030080 bytes, 24.8 MiB)
+State:       OK
+Name:        ubi_rootfs
+Character device major/minor: 240:2
+
+===================================
+
+ubi1
+Volumes count:                           1
+Logical eraseblock size:                 126976 bytes, 124.0 KiB
+Total amount of logical eraseblocks:     214 (27172864 bytes, 25.9 MiB)
+Amount of available logical eraseblocks: 0 (0 bytes)
+Maximum count of volumes                 128
+Count of bad physical eraseblocks:       0
+Count of reserved physical eraseblocks:  20
+Current maximum erase counter value:     1457
+Minimum input/output unit size:          2048 bytes
+Character device major/minor:            238:0
+Present volumes:                         1
+
+Volume ID:   1 (on ubi1)
+Type:        dynamic
+Alignment:   1
+Size:        190 LEBs (24125440 bytes, 23.0 MiB)
+State:       OK
+Name:        cfg
+Character device major/minor: 238:2

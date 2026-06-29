@@ -1,0 +1,215 @@
+arp_tables             20480  1 arptable_filter
+arpt_mangle            16384  0 
+arptable_filter        16384  1 
+ath_pktlog             24576  0 
+bootconfig             20480  0 
+button_hotplug         16384  0 
+cfg80211              303104  4 qca_ol,qca_spectral,umac,qdf
+cls_fw                 16384  0 
+cls_u32                24576  0 
+compat_xtables         16384  0 
+connattr_antiy         16384  0 
+connattr_haohan        16384  0 
+connattr_label         24576  0 
+connattr_statistic     24576  0 
+conntrack_attr         24576  4 connattr_statistic,connattr_label,connattr_haohan,connattr_antiy
+crc_ccitt              16384  2 ppp_async,diagchar
+diagchar              237568  0 
+dm_log                 20480  2 dm_mirror,dm_region_hash
+dm_mirror              24576  0 
+dm_region_hash         20480  1 dm_mirror
+dm_req_crypt           16384  0 
+ecm                   925696  1 ecm_wifi_plugin
+ecm_wifi_plugin        16384  0 
+em_ipt                 16384  0 
+emesh_sp               69632  1 ecm
+enid                   16384  0 
+ext4                  401408  1 
+gpio_button_hotplug    20480  0 
+input_core             40960  1 button_hotplug
+ip_account             24576  0 
+ip_gre                 28672  0 
+ip_set                 36864 16 xt_set,ip_set_list_set,ip_set_hash_netiface,ip_set_hash_netport,ip_set_hash_netnet,ip_set_hash_net,ip_set_hash_netportnet,ip_set_hash_mac,ip_set_hash_ipportnet,ip_set_hash_ipportip,ip_set_hash_ipport,ip_set_hash_ipmark,ip_set_hash_ip,ip_set_bitmap_port,ip_set_bitmap_ipmac,ip_set_bitmap_ip
+ip_set_bitmap_ip       20480  0 
+ip_set_bitmap_ipmac    20480  0 
+ip_set_bitmap_port     20480  0 
+ip_set_hash_ip         36864  4 
+ip_set_hash_ipmark     36864  0 
+ip_set_hash_ipport     36864  0 
+ip_set_hash_ipportip   36864  0 
+ip_set_hash_ipportnet   40960  0 
+ip_set_hash_mac        24576  0 
+ip_set_hash_net        36864  4 
+ip_set_hash_netiface   40960  0 
+ip_set_hash_netnet     40960  0 
+ip_set_hash_netport    40960  0 
+ip_set_hash_netportnet   40960  0 
+ip_set_list_set        20480  3 
+ip_tables              24576  5 iptable_raw,iptable_nat,iptable_mangle,iptable_filter
+ip_tunnel              24576  1 ip_gre
+ip6_tables             24576 29 ip6table_raw,ip6table_nat,ip6table_mangle,ip6table_filter
+ip6_tunnel             36864  0 
+ip6_udp_tunnel         16384  2 l2tp_core,vxlan
+ip6t_NPT               16384  0 
+ip6t_REJECT            16384 27 
+ip6t_ah                16384  0 
+ip6t_eui64             16384  0 
+ip6t_frag              16384  0 
+ip6t_hbh               16384  0 
+ip6t_ipv6header        16384  0 
+ip6t_mh                16384  0 
+ip6t_rpfilter          16384  0 
+ip6t_rt                16384  0 
+ip6table_filter        16384  1 
+ip6table_mangle        16384  1 
+ip6table_nat           16384  1 
+ip6table_raw           16384  1 
+ipq_cnss2             360448  2 qca_ol,umac
+ipt_ECN                16384  0 
+ipt_REJECT             16384 34 
+ipt_ah                 16384  0 
+ipt_rpfilter           16384  0 
+iptable_filter         16384  1 
+iptable_mangle         16384  1 
+iptable_nat            16384  1 
+iptable_raw            16384  1 
+jbd2                   69632  1 ext4
+l2tp_core              24576  2 l2tp_ppp,l2tp_netlink
+l2tp_netlink           24576  1 l2tp_ppp
+l2tp_ppp               24576  1 ecm
+leds_gpio              16384  0 
+mbcache                16384  1 ext4
+md5                    16384  0 
+mem_manager            28672  2 qca_ol,umac
+miwifi_xtcounter       20480  0 
+miwifi_xthostlog       16384  0 
+miwifi_xthostset       36864  2 connattr_antiy,miwifi_xthostlog
+monitor               299008  0 
+nat46                  40960  2 ecm,qca_nss_ppe
+nf_conncount           20480  1 xt_connlimit
+nf_conntrack_ftp       16384  5 nf_nat_ftp
+nf_conntrack_h323      49152  9 nf_nat_h323
+nf_conntrack_pptp      16384  3 nf_nat_pptp
+nf_conntrack_rtcache   16384  0 
+nf_conntrack_sip       28672  9 nf_nat_sip
+nf_conntrack_tftp      16384  5 nf_nat_tftp
+nf_dup_netdev          16384  2 nft_fwd_netdev,nft_dup_netdev
+nf_flow_table_inet     16384  0 
+nf_flow_table_ipv4     16384  0 
+nf_flow_table_ipv6     16384  0 
+nf_log_common          16384  2 nf_log_ipv4,nf_log_ipv6
+nf_log_ipv4            16384  0 
+nf_log_ipv6            16384  0 
+nf_nat                 32768 13 xt_nat,xt_REDIRECT,xt_MASQUERADE,nft_redir,nft_nat,nft_masq,nf_nat_tftp,nf_nat_sip,nf_nat_pptp,nf_nat_h323,nf_nat_ftp,iptable_nat,ip6table_nat
+nf_nat_ftp             16384  0 
+nf_nat_h323            20480  0 
+nf_nat_pptp            16384  0 
+nf_nat_sip             20480  0 
+nf_nat_tftp            16384  0 
+nf_reject_ipv4         16384  3 ipt_REJECT,nft_reject_ipv4,nft_reject_inet
+nf_reject_ipv6         16384  3 nft_reject_ipv6,nft_reject_inet,ip6t_REJECT
+nf_socket_ipv4         16384  1 xt_socket
+nf_socket_ipv6         16384  1 xt_socket
+nf_tables             118784 19 nf_flow_table_ipv6,nf_flow_table_ipv4,nf_flow_table_inet,nft_reject_ipv6,nft_reject_ipv4,nft_reject_inet,nft_reject,nft_redir,nft_quota,nft_numgen,nft_nat,nft_masq,nft_log,nft_limit,nft_fwd_netdev,nft_flow_offload,nft_dup_netdev,nft_ct,nft_counter
+nf_tproxy_ipv4         16384  1 xt_TPROXY
+nf_tproxy_ipv6         16384  1 xt_TPROXY
+nfnlq_extension        16384  2 connattr_haohan,connattr_antiy
+nft_counter            16384  0 
+nft_ct                 20480  0 
+nft_dup_netdev         16384  0 
+nft_flow_offload       16384  0 
+nft_fwd_netdev         16384  0 
+nft_limit              16384  0 
+nft_log                16384  0 
+nft_masq               16384  0 
+nft_nat                16384  0 
+nft_numgen             16384  0 
+nft_quota              16384  0 
+nft_redir              16384  0 
+nft_reject             16384  3 nft_reject_ipv6,nft_reject_ipv4,nft_reject_inet
+nft_reject_inet        16384  0 
+nft_reject_ipv4        16384  0 
+nft_reject_ipv6        16384  0 
+nls_iso8859_1          16384  0 
+nls_utf8               16384  0 
+ppp_async              20480  0 
+ppp_mppe               16384  0 
+pwm_rgb                16384  0 
+qca_mcs                57344  1 ecm
+qca_nss_dp            122880  2 qca_nss_ppe_ds,qca_nss_ppe_vp
+qca_nss_ppe           446464 11 ecm,wifi_3_0,qca_nss_ppe_tun,qca_nss_ppe_pppoe_mgr,qca_nss_ppe_lag,qca_nss_ppe_ds,qca_nss_ppe_vp,qca_nss_ppe_bridge_mgr,qca_nss_ppe_vlan,qca_nss_dp,qca_nss_ppe_rule
+qca_nss_ppe_bridge_mgr   28672  0 
+qca_nss_ppe_ds         24576  1 wifi_3_0
+qca_nss_ppe_lag        16384  0 
+qca_nss_ppe_pppoe_mgr   16384  0 
+qca_nss_ppe_rule      110592  2 qca_nss_ppe_tun,qca_nss_sfe
+qca_nss_ppe_tun        28672  1 qca_nss_ppe_vxlanmgr
+qca_nss_ppe_vlan       36864  2 qca_nss_ppe_lag,qca_nss_ppe_bridge_mgr
+qca_nss_ppe_vp         53248  3 umac,qca_nss_ppe_tun,qca_nss_ppe_ds
+qca_nss_ppe_vxlanmgr   20480  0 
+qca_nss_sfe           274432  1 ecm
+qca_ol               1851392  2 monitor,wifi_3_0
+qca_spectral          135168  1 qca_ol
+qca_ssdk             1359872  2 qca_nss_dp,qca_nss_ppe
+qdf                   548864  7 ath_pktlog,monitor,wifi_3_0,smart_antenna,qca_ol,qca_spectral,umac
+sch_htb                24576  0 
+sch_prio               16384  0 
+sch_sfq                24576  0 
+smart_antenna          45056  0 
+telemetry_agent       483328  0 
+tunnel6                16384  1 ip6_tunnel
+udp_tunnel             16384  2 l2tp_core,vxlan
+umac                 4505600  9 ecm_wifi_plugin,ath_pktlog,monitor,wifi_3_0,smart_antenna,qca_ol,qca_spectral,telemetry_agent
+vxlan                  53248  2 ecm,qca_nss_ppe_vxlanmgr
+wan_check              16384  0 
+wifi_3_0             1355776  2 ecm_wifi_plugin,monitor
+x_tables               24576 82 ipt_REJECT,xt_u32,xt_time,xt_tcpudp,xt_tcpmss,xt_string,xt_statistic,xt_state,xt_socket,xt_recent,xt_quota,xt_policy,xt_pkttype,xt_physdev,xt_owner,xt_nat,xt_multiport,xt_mark,xt_mac,xt_limit,xt_length,xt_hl,xt_helper,xt_hashlimit,xt_flowMARK,xt_esp,xt_ecn,xt_dscp,xt_conntrack,xt_connmark,xt_connlimit,xt_connbytes,xt_comment,xt_cgroup_MARK,xt_bpf,xt_addrtype,xt_TPROXY,xt_TCPMSS,xt_REDIRECT,xt_NFQUEUE,xt_MASQUERADE,xt_LOG,xt_IP4MARK,xt_HL,xt_FLOWOFFLOAD,xt_DSCP,xt_CT,xt_CLASSIFY,iptable_raw,iptable_mangle,iptable_filter,ipt_rpfilter,ipt_ah,ipt_ECN,ip6table_raw,ip6t_rpfilter,ip_tables,arptable_filter,arpt_mangle,arp_tables,ip6t_NPT,ip6t_rt,ip6t_frag,ip6t_hbh,ip6t_eui64,ip6t_mh,ip6t_ah,ip6t_ipv6header,em_ipt,xt_sctp,connattr_statistic,connattr_label,connattr_haohan,connattr_antiy,miwifi_xthostlog,miwifi_xthostset,miwifi_xtcounter,xt_set,ip6t_REJECT,ip6table_mangle,ip6table_filter,ip6_tables
+xt_CLASSIFY            16384  0 
+xt_CT                  16384 26 
+xt_DSCP                16384  2 
+xt_FLOWOFFLOAD         16384  0 
+xt_HL                  16384  0 
+xt_IP4MARK             16384  0 
+xt_LOG                 16384  0 
+xt_MASQUERADE          16384  1 
+xt_NFQUEUE             16384  0 
+xt_REDIRECT            16384  1 
+xt_TCPMSS              16384  2 
+xt_TPROXY              16384  0 
+xt_addrtype            16384  0 
+xt_bpf                 16384  0 
+xt_cgroup_MARK         16384  0 
+xt_comment             16384230 
+xt_connbytes           16384  0 
+xt_connlimit           16384  0 
+xt_connmark            16384  4 
+xt_conntrack           16384 22 
+xt_dscp                16384  0 
+xt_ecn                 16384  0 
+xt_esp                 16384  0 
+xt_flowMARK            20480  0 
+xt_hashlimit           20480  0 
+xt_helper              16384  0 
+xt_hl                  16384  0 
+xt_length              16384  0 
+xt_limit               16384 18 
+xt_mac                 16384 51 
+xt_mark                16384 51 
+xt_multiport           16384  0 
+xt_nat                 16384 24 
+xt_owner               16384  0 
+xt_physdev             16384  2 
+xt_pkttype             16384  0 
+xt_policy              16384  0 
+xt_quota               16384  0 
+xt_recent              20480  0 
+xt_sctp                16384  0 
+xt_set                 16384 23 
+xt_socket              16384  0 
+xt_state               16384  0 
+xt_statistic           16384  1 
+xt_string              16384  1 
+xt_tcpmss              16384  0 
+xt_tcpudp              16384 61 
+xt_time                16384  0 
+xt_u32                 16384  0 

@@ -1,0 +1,8 @@
+drwxr-xr-x    2 root     root             0 Jun 29 09:23 .
+drwxr-xr-x   45 root     root             0 Jun 23 18:54 ..
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 ubi0 -> ../../devices/virtual/ubi/ubi0
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 ubi0_0 -> ../../devices/virtual/ubi/ubi0/ubi0_0
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 ubi0_1 -> ../../devices/virtual/ubi/ubi0/ubi0_1
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 ubi1 -> ../../devices/virtual/ubi/ubi1
+lrwxrwxrwx    1 root     root             0 Jun 29 09:23 ubi1_1 -> ../../devices/virtual/ubi/ubi1/ubi1_1
+-r--r--r--    1 root     root          4096 Jun 29 09:23 version

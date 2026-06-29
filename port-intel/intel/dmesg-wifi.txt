@@ -1,0 +1,770 @@
+[944495.141922] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944495.167071] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944537.788583] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944537.853055] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944537.861106] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944537.879624] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944540.306442] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[944540.345370] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[944540.351939] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[944540.354330] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 Assoc peer XX:XX:XX:XX:XX:XX primary umac soc 0 
+[944540.367658] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 18b67d20
+[944540.378804] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:0, Primary peer ifindex: 46,MLD ifindex:25
+[944540.400200] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[945165.365740] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 1
+[945165.379177] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945433.205775] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945433.242767] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945433.250084] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945433.269369] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945435.576270] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.320843] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.337876] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.351928] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[945440.358819] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.382702] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[945440.383034] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[945440.396663] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -84 primary umac soc 1 
+[945440.406228] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[945440.418180] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.442140] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[945440.442191] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[945440.452920] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 5555e880
+[945440.475704] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945440.493485] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[945440.497361] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[945468.632174] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945834.189047] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 1
+[945834.189171] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945967.415787] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945967.452846] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945969.690528] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945969.701137] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945972.570579] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945972.582480] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945974.814898] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[945974.827408] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946005.272158] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946120.015320] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946120.052289] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946120.059541] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946120.085548] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946123.526610] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946125.713819] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946125.730690] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946127.935836] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946127.978205] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946150.872167] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946153.763226] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946153.773267] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946156.231174] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946156.243090] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946158.390244] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946158.402398] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946161.091807] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.334121] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.351471] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.365015] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946163.372096] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.396100] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946163.396562] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[946163.610754] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.633131] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946163.648085] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946163.841303] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946163.855012] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[946171.024068] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 2 (from target) reason 1
+[946171.024180] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946199.913869] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946199.950982] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946201.178687] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946201.188387] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946231.992159] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946261.329167] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946261.363511] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946261.370588] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946261.392334] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946263.723949] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946294.392172] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946328.922719] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946328.964950] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946328.972280] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946328.990382] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.471127] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.484203] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.496667] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946334.503864] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.527739] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946334.528070] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[946334.541590] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -87 primary umac soc 1 
+[946334.551172] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946334.563114] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.587078] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[946334.587131] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[946334.597867] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated ab191fa8
+[946334.620850] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946334.642749] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[946334.642882] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[946359.912169] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946384.169073] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946747.773474] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946747.810262] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946747.818867] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946747.851959] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946750.175368] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946753.448021] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946753.463599] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946755.610741] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946755.622261] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946759.979333] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946760.011318] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946760.018372] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946760.041788] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946760.053499] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946760.059717] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946760.083617] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946760.083970] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[946760.097588] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -80 primary umac soc 1 
+[946760.106976] wlan: [0:E:MLO_MGR] wlan_mlme_peer_create: ML Peer with mld XX:XX:XX:XX:XX:XX partner peer XX:XX:XX:XX:XX:XX exists
+[946760.119513] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocation failed
+[946760.130690] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: psoc:1 vdev0: MLO peer create failed for MAC addr XX:XX:XX:XX:XX:XX
+[946760.288662] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946760.295583] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[946762.601764] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946762.608369] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946762.610701] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[946764.793385] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946764.799901] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946764.802298] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[946767.343002] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946767.383900] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946767.398241] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946767.412294] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946767.461891] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946767.461940] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946767.484740] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946767.485214] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[946767.652632] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946767.903869] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946767.918299] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[946770.835910] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[946770.836075] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[946770.848691] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -72 primary umac soc 1 
+[946770.864932] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[946770.870179] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[946770.881039] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 658b5986
+[946770.914601] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[946770.914737] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[946866.114902] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[946922.268786] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[946966.827117] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946966.843611] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946966.883665] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946966.913328] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946966.920507] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[946966.948814] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[947638.778411] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[947967.371237] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 1
+[947967.371341] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.767266] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.798243] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.805552] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.823540] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.841009] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[948867.846707] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[948867.870660] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[948867.871198] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[948867.884516] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -64 primary umac soc 1 
+[948867.894088] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[948867.912596] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 1, ifindex: 48, macaddr:XX:XX:XX:XX:XX:XX
+[948867.915509] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[948867.926465] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated c1206289
+[948867.958368] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[948867.958498] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[948984.606287] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[949737.871320] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949856.910783] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949856.923469] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949856.971575] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949857.002589] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949857.009651] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[949857.038572] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[950298.421034] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.511715] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.522590] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.574331] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.603301] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.610368] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[950343.635658] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[950671.652234] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951434.917210] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951434.946984] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951434.954422] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951434.970948] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951434.988168] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951868.370242] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951868.380395] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951868.416028] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951868.425328] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[951868.441340] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[951868.576062] wifi_log: [Set auth Done] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX",
+[953550.982779] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953551.017305] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953551.024569] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953551.041009] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953551.059157] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953653.344051] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953653.380701] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953653.387823] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953653.404384] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[953653.421933] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[965339.071306] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[965339.107451] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[965339.115071] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[965339.132465] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[965339.149058] wifi_log: [Class 2 - RECV DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.137569] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.173033] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.180116] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.196955] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.214698] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[967779.235847] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[967779.236138] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[967779.249746] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -59 primary umac soc 1 
+[967779.265965] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[967779.271280] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[967779.282150] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated dfa16e34
+[967779.313155] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[967779.313283] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[968002.685238] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[968311.383854] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[968340.945335] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[968394.523328] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969297.061187] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969298.872011] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969348.962821] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969424.879004] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969474.778312] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969933.382989] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[969983.416766] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970033.750262] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970077.703419] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970309.938547] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970396.388690] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970446.359462] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970511.612713] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970563.711871] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970710.897503] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[970815.806625] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971174.495057] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971373.130199] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971405.186835] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971455.302393] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971493.924271] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971525.217853] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971553.983720] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971604.033624] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971654.034214] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971683.104080] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971687.551687] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971700.890120] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971750.942555] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971771.100783] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971776.285932] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[971837.055649] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972025.672456] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972075.778396] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972291.334125] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972580.185948] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972630.242732] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972720.725046] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[972971.069217] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973018.637938] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973211.153336] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973537.886649] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973580.545098] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973612.106601] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973644.979103] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973651.766068] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973680.472234] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973730.480404] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973897.582174] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session is active
+[973968.810045] wifi_log: [Class 2 - RECV DISASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974074.312095] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[974074.312215] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974079.914186] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974079.923730] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974079.940097] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974079.958309] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[974079.973802] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[974079.992062] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[974871.459476] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 2
+[974871.459575] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.404475] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.436419] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.443477] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.460580] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.478026] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1023084.485615] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023084.509685] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1023084.509840] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1023084.523813] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -73 primary umac soc 1 
+[1023084.533469] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1023084.551849] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1023084.554719] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1023084.566113] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated cfeabfb0
+[1023084.598150] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1023084.598346] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1023390.616566] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.481781] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.511712] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.518750] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.535986] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.553533] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1023402.560903] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1023402.584948] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1023402.585093] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1023402.599116] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -70 primary umac soc 1 
+[1023402.608760] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1023402.627127] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1023402.630012] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1023402.641404] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated d2044c31
+[1023402.671473] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1023402.671602] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1025305.371405] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025327.239992] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025327.272898] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025327.286785] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025327.299641] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025329.552110] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1025331.748102] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1025331.754659] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1025331.757077] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1025331.770825] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -58 primary umac soc 1 
+[1025331.780460] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1025331.798717] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 1, ifindex: 48, macaddr:XX:XX:XX:XX:XX:XX
+[1025331.801739] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1025331.813117] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated c4c25e7f
+[1025331.843512] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1025331.843642] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1025333.326412] wlan_node_authorize: 12 callbacks suppressed
+[1025333.326421] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1025333.338918] wifi_log: [Set auth Done] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX",
+[1025897.081007] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 2
+[1025897.081124] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.094486] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.124080] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.131106] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.148054] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.165872] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1026942.187665] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1026942.187811] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1026942.201841] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -80 primary umac soc 1 
+[1026942.218211] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1026942.223205] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1026942.234506] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 40ea0228
+[1026942.266404] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1026942.266554] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1027147.084561] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027147.533612] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027147.545466] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027177.591802] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027185.650086] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027185.661629] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027188.023510] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027188.062904] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027190.356532] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027193.829602] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027193.872198] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027195.271273] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027195.284180] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027199.493427] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027199.506237] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027202.029049] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027202.041251] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027204.428315] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027204.491292] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1027204.491437] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1027204.504381] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -82 primary umac soc 1 
+[1027204.513846] wlan: [0:E:MLO_MGR] wlan_mlme_peer_create: ML Peer with mld XX:XX:XX:XX:XX:XX partner peer XX:XX:XX:XX:XX:XX exists
+[1027204.525959] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027204.551884] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocation failed
+[1027204.558345] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: psoc:1 vdev0: MLO peer create failed for MAC addr XX:XX:XX:XX:XX:XX
+[1027205.948850] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027205.960395] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027208.236365] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027208.248073] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027211.103593] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027211.114931] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027217.492265] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027217.526285] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027217.546707] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027217.559818] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027219.679479] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027219.701508] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1027219.701942] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[1027219.864499] wlan: [0:E:MLO_MGR] ieee80211_mlme_recv_assoc_request: ML peer exists with this mld MAC XX:XX:XX:XX:XX:XX Rejecting assoc
+[1027220.124533] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1027871.291720] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 2 (from target) reason 1
+[1027871.291823] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027873.735532] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027873.765992] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027873.773361] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027873.790072] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1027873.814080] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1027873.815280] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1027873.829167] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -71 primary umac soc 1 
+[1027873.845523] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1027873.850524] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1027873.861849] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated dffea8f8
+[1027873.893310] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1027873.893436] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1028945.985487] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028946.020010] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028946.027012] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028946.044033] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028946.061823] wlan: [0:E:MLO_MGR] ieee80211_recv_asreq: psoc:1 vdev0: Notifying hostapd for duplicate Assoc req from MAC addr XX:XX:XX:XX:XX:XX
+[1028946.070370] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028947.109613] wlan: [0:E:MLO_MGR] ieee80211_recv_asreq: psoc:1 vdev0: Notifying hostapd for duplicate Assoc req from MAC addr XX:XX:XX:XX:XX:XX
+[1028948.186928] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1028948.244767] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1028948.273583] wlan: [6330:I:MLO_MGR] wlan_mlo_ap_vdev_find_assoc_entry: list is empty
+[1028948.274142] wlan: [6330:I:ANY] wlan_cfg80211_mgmt_tx: wlan_cfg80211_mgmt_tx (Re)Assoc Resp failure, ni is NULL for macaddr:XX:XX:XX:XX:XX:XX 
+[1028950.682474] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1028950.682628] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1028950.695574] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -75 primary umac soc 1 
+[1028950.711910] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1028950.716912] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1028950.728214] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 478efe64
+[1028953.093377] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028953.108077] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028955.329223] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028955.338562] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028956.579135] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1028956.642317] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1028956.642463] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1028956.655405] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -77 primary umac soc 1 
+[1028956.671709] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1028956.676755] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1028956.688061] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 520bab20
+[1028956.717480] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1028956.717611] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1029354.055391] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 2
+[1029354.069166] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1029720.114043] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1029720.150554] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1029750.231800] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.099354] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.137748] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.145107] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.163234] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.179666] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1030176.186952] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030176.211141] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1030176.211555] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 Assoc peer XX:XX:XX:XX:XX:XX primary umac soc 0 
+[1030176.225184] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 4b07e8fe
+[1030176.236048] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:0, Primary peer ifindex: 46,MLD ifindex:25
+[1030176.259850] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1030191.673201] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 1
+[1030191.686980] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030836.459547] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030836.488789] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1030867.191798] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1031332.018741] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1031332.031791] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1031362.231794] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.768826] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.799521] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.806530] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.825483] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.842180] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1032107.848705] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1032107.872777] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1032107.872941] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1032107.886814] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -86 primary umac soc 1 
+[1032107.896472] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1032107.914817] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1032107.917738] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1032107.929122] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated e37b187d
+[1032107.960814] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1032107.960949] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1032422.032003] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 2
+[1032422.032107] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033236.311861] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1033236.311971] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033241.971444] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033241.981036] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033241.998075] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033242.016097] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033242.032374] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1033242.054309] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1033788.580085] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033788.591778] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033791.052892] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033791.064118] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033795.974927] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033795.991510] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1033825.991796] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034976.117528] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034976.150319] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034977.181882] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034977.191015] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034977.207592] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1034977.215218] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1034977.239256] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1034977.239409] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1034977.253396] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -85 primary umac soc 1 
+[1034977.263060] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1034977.281421] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1034977.284314] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1034977.295687] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 649511e8
+[1034977.325928] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1034977.326090] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1035437.009168] wlan: [0:I:ANY] [INACT] vap-0(wl0): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 44 (from target) reason 2
+[1035437.022932] wifi_log: [Class 1 - SEND DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037387.311822] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1037387.311929] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037392.942615] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037392.953647] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037392.968202] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037392.987496] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1037393.003301] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1037393.021185] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1038284.311923] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1038284.312025] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1038289.960842] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1038289.970521] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1038289.986822] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1038290.005742] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1038290.024156] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1038290.039903] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1041839.311795] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1041839.311914] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1041844.969309] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1041844.982465] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1041844.996080] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1041845.014115] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1041845.029725] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1041845.051417] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1067413.311841] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1067413.311952] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1067418.920535] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1067418.930416] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1067418.946716] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1067418.965503] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1067418.980936] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1067418.999366] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1106105.311944] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1106105.312050] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1106110.957275] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1106110.967376] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1106110.984330] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1106111.002379] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1106111.017830] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1106111.037227] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1140561.311444] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1140561.311565] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1140566.953143] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1140566.962705] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1140566.979379] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1140566.998012] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1140567.013589] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1140567.031953] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1141211.311457] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1141211.311564] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1141216.937395] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1141216.947005] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1141216.963178] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1141216.982405] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1141216.997770] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1141217.016140] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",
+[1184564.916982] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184564.947297] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184564.954641] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184564.974447] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184564.988899] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1184564.996520] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184565.020546] wlan: [0:I:MLOIE] ieee80211_parse_multilink_ie: EML Cap not found in Multi-Link element in subtype 0 for ni with MAC address XX:XX:XX:XX:XX:XX
+[1184565.020700] wlan: [0:E:MLO_MGR] wlan_mld_get_best_primary_umac_w_rssi: Skip Radio for Primary MLO umac
+[1184565.034687] wlan: [0:I:MLO_MGR] mlo_peer_allocate_primary_umac: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX avg RSSI -80 primary umac soc 1 
+[1184565.044351] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1184565.062725] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: link id: 0, ifindex: 46, macaddr:XX:XX:XX:XX:XX:XX
+[1184565.065595] wlan: [0:I:MLO_MGR] wlan_cfg80211_prim_netdev_notification: Vendor event Created for peer mac address: XX:XX:XX:XX:XX:XX mld address: XX:XX:XX:XX:XX:XX Peer Link ID:1, Primary peer ifindex: 48,MLD ifindex:25
+[1184565.076985] wlan: [0:I:MLO_MGR] wlan_mlo_peer_create: MLD ID 0 ML Peer XX:XX:XX:XX:XX:XX allocated 8c8ed475
+[1184565.107787] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1184565.107922] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1184775.208304] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184775.242826] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184775.249910] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184775.266946] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184775.284362] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184775.307146] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1184828.844726] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184828.862712] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184828.908732] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184828.941927] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184828.949321] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1184828.981321] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1184868.098270] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1188751.923267] miwifi_save_clear_pre_cac: skip_cac_chan_num = 0
+[1188751.964660] miwifi_save_clear_pre_cac: skip_cac_chan_num = 4
+[1188752.889511] wlan: [6330:I:ANY] Skip bcast de-auth reason code 3, handled in VDEV down
+[1188752.890595] wlan: [6330:I:ANY] wlan_cfg80211_stop_ap: Stop wl1 psoc:0 vdev:0
+[1188752.896426] wlan: [6330:E:MBSSIE] wlan_mbss_group_iterate_vdev_list: ic_mbss_ctx NULL
+[1188752.903809] wlan: [0:I:CMN_MLME] Sending ucast disassoc to PMF associated stas
+[1188752.911629] wifi_log: [Class 2 - SEND DISASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188752.934309] wifi_log: [Class 2 - SEND DISASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188752.949858] wlan: [0:I:CMN_MLME] Sending ucast disassoc to PMF associated stas
+[1188752.956543] wifi_log: [Class 2 - SEND DISASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188752.972285] wifi_log: [Class 2 - SEND DISASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188752.987462] wifi_log: [Class 2 - SEND DISASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188753.007543] wlan: [6330:I:ANY] wlan_cfg80211_stop_ap: Stop wl0 psoc:1 vdev:0
+[1188753.009614] wlan: [6330:E:MBSSIE] wlan_mbss_group_iterate_vdev_list: ic_mbss_ctx NULL
+[1188753.062842] wlan: [15842:I:ANY] osif_mld_unmap_link_dev: hostap_mld0: psoc_id 0 pdev_id 0 chip_id 0 dev wl1 is_bridge_link = 0
+[1188753.241037] wlan: [15842:I:ANY] osif_pltfrm_delete_vap: 
+[1188753.331797] wlan: [0:I:CMN_MLME] mlme_ext_vap_down: VAP (wl1) XX:XX:XX:XX:XX:XX is down
+[1188753.340451] wlan: [0:I:CMN_MLME] mlme_ext_vap_down: VAP (wl0) XX:XX:XX:XX:XX:XX is down
+[1188754.311327] wlan: [15842:I:ANY] ieee80211_mbo_vdetach: MBO terminated
+[1188754.311358] wlan: [15842:I:ANY] ieee80211_oce_vdetach: OCE terminated
+[1188754.311610] wlan: [0:E:ANY] ol_peer_delete_response_event_handler: peer_del_resp: mac: XX:XX:XX:XX:XX:XX vdevid: 0 Unable to find vdev
+[1188754.318499] wlan: [15842:I:ANY] mlme_clear_cu_vdev_id: vdev_id:0 pos:0
+[1188754.339204] wlan: [0:E:CMN_MLME] wlan_vdev_mlme_get_cmpt_obj:  MLME component object is NULL
+[1188754.416209] wlan: [15880:I:ANY] osif_mld_unmap_link_dev: hostap_mld0: psoc_id 1 pdev_id 0 chip_id 1 dev wl0 is_bridge_link = 0
+[1188754.561045] wlan: [15880:I:ANY] osif_pltfrm_delete_vap: 
+[1188754.566835] wlan: [15880:I:ANY] ieee80211_mbo_vdetach: MBO terminated
+[1188754.570039] wlan: [0:E:ANY] ol_peer_delete_response_event_handler: peer_del_resp: mac: XX:XX:XX:XX:XX:XX vdevid: 0 Unable to find vdev
+[1188754.578135] wlan: [15880:I:ANY] ieee80211_oce_vdetach: OCE terminated
+[1188754.590529] wlan: [15880:I:ANY] mlme_clear_cu_vdev_id: vdev_id:0 pos:0
+[1188754.598536] wlan: [0:E:CMN_MLME] wlan_vdev_mlme_get_cmpt_obj:  MLME component object is NULL
+[1188754.605364] wlan: [0:E:MLO_MGR] wlan_mlo_vdev_aid_mgr_deinit: ID 0, doesn't have associated AID mgr
+[1188754.613778] wlan: [0:E:MLO_MGR] wlan_mlo_vdev_aid_mgr_deinit: ID 1, doesn't have associated AID mgr
+[1188754.623067] wlan: [0:E:MLO_MGR] wlan_mlo_vdev_aid_mgr_deinit: ID 2, doesn't have associated AID mgr
+[1188754.632268] wlan: [0:E:MLO_MGR] wlan_mlo_vdev_aid_mgr_deinit: ID 3, doesn't have associated AID mgr
+[1188755.141288] wlan: [15991:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[1188755.141325] wlan: [15991:I:ANY] osifp_create_wlan_vap: VDEV Create XX:XX:XX:XX:XX:XX
+[1188755.148091] wlan: [15991:I:ANY] osifp_create_wlan_vap: mlo_mbssid disabled in lower band radios
+[1188755.157025] wlan: [15991:I:ANY] wlan_vap_create: devhandle=0x049fd654, opmode=IEEE80211_M_HOSTAP, flags=0x400001
+[1188755.167358] wlan: [15991:E:ANY] ol_ath_vdev_set_intra_bss: vdev is NULL!
+[1188755.178966] wlan: [15991:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188755.185201] wlan: [15991:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188755.203320] wlan: [15991:I:ANY] ieee80211_add_vdev_ids: vdev_id:0 pos:0
+[1188755.210075] wlan: [15991:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[1188755.291032] wlan: [15991:I:ANY] osif_pltfrm_create_ppe_vp: vp user type: passive vpai.core_mask: 7 target type: 35 vpnum: 64 icp_flags: 100001
+[1188755.291076] wlan: [15991:I:ANY] osif_pltfrm_create_ppe_vp_802_3_redir_vap: 
+[1188755.304636] wlan: [15991:I:RPTR] RPTR vdev flags:0 pdev flags:1 vdev_id:0 pdev_id:0
+[1188756.936940] wlan: [16109:I:ANY] ieee80211_ucfg_setparam_util: Setting Max Stations:124
+[1188757.116052] wlan: [16120:I:ANY] wlan_set_param:  HE MU BFER already set with this value =1 
+[1188757.211986] wlan: [16127:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188757.212029] wlan: [16127:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188757.229857] wlan: [16127:E:ANY] wlan_set_param_eht: The user value for EHT parameter(453) 1 be <= target capability value: 0
+[1188757.292736] wlan: [16130:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188757.292778] wlan: [16130:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188757.800520] wlan: [16211:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[1188757.800556] wlan: [16211:I:ANY] osifp_create_wlan_vap: VDEV Create XX:XX:XX:XX:XX:XX
+[1188757.808160] wlan: [16211:I:ANY] osifp_create_wlan_vap: mlo_mbssid disabled in lower band radios
+[1188757.815712] wlan: [16211:I:ANY] wlan_vap_create: devhandle=0x5a6dd271, opmode=IEEE80211_M_HOSTAP, flags=0x400001
+[1188757.826383] wlan: [16211:E:ANY] ol_ath_vdev_set_intra_bss: vdev is NULL!
+[1188757.838302] wlan: [16211:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188757.844916] wlan: [16211:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188757.862966] wlan: [16211:I:ANY] ieee80211_add_vdev_ids: vdev_id:0 pos:0
+[1188757.869310] wlan: [16211:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[1188757.961038] wlan: [16211:I:ANY] osif_pltfrm_create_ppe_vp: vp user type: ds vpai.core_mask: 7 target type: 32 vpnum: 67 icp_flags: 400001
+[1188757.961082] wlan: [16211:I:ANY] osif_pltfrm_create_ppe_vp_802_3_redir_vap: 
+[1188757.974445] wlan: [16211:I:RPTR] RPTR vdev flags:0 pdev flags:1 vdev_id:0 pdev_id:0
+[1188759.431837] wlan: [16316:I:ANY] ieee80211_ucfg_setparam_util: Setting Max Stations:124
+[1188759.610462] wlan: [16327:I:ANY] wlan_set_param:  HE MU BFER already set with this value =1 
+[1188759.706746] wlan: [16333:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188759.706788] wlan: [16333:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188759.780024] wlan: [16336:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:1|dl_ofdma:1|ul_ofdma:1|ulmumimo:1|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[1188759.780067] wlan: [16336:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0xfb
+[1188761.249010] wlan: [6330:I:ANY] wlan_cfg80211_do_acs: vap-0(wl1):ACS Params
+[1188761.256131] wlan: [6330:I:ANY] wlan_cfg80211_do_acs: ht_enabled:1|ht40_enabled:0|vht_enabled:1|hw_mode:40|chwidth:20|
+[1188761.262831] wlan: [6330:I:ANY] vap-0(wl1): ACS result PCH 1 freq 2412, SCH 5 freq 2432, hw_mode 1 chwidth 40, vht_seg0 3 freq 2422, vht_seg1 0 freq 0 puncture pattern 0
+[1188761.345131] wlan: [6330:I:ANY] wlan_cfg80211_start_ap: Start wl1 psoc:0 vdev:0
+[1188761.345162] wlan: [6330:I:ANY] DES SSID SET=REDACTED_SSID
+[1188761.352404] wlan: [6330:I:ANY] desired hw mode: 40
+[1188761.357008] wlan: [6330:I:ANY] wlan_cfg80211_chan_to_phymode: band:0 width: 2 channel_cfreq: 2412 center_freq1: 2422 chandef.center_freq2: 0 flags: 288
+[1188761.362698] wlan: [6330:I:ANY] HT Support:6eef70f1 VHT Support:64f64a4b HE Support:aa1e2de3
+[1188761.376071] wlan: [6330:I:ANY] Max supported wireless mode: 4
+[1188761.384506] wlan: [6330:I:ANY] Phymode: 37 
+[1188761.390004] wlan: [6330:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[1188761.396655] wlan: [6330:I:MBSSIE] wlan_cfg80211_start_ap: Set tx-vap wl1: vdev_id:0
+[1188761.406995] wlan: [6330:W:MLO_MGR] wlan_mlme_start_ap_vdev: Allowing 11be non-MLO operation as per INI configuration
+[1188761.415223] wlan: [6330:E:MLO_MGR] mlo_ap_get_bridge_vdev_list: Invalid input
+[1188761.432861] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188761.438338] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188761.472796] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188761.505507] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188761.517134] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188761.531225] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188761.547932] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188761.571437] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1188762.038418] wlan: [0:I:CMN_MLME] Sending ucast disassoc to PMF associated stas
+[1188762.063970] wlan: [0:I:CMN_MLME] mlme_ext_vap_down: VAP (wl1) XX:XX:XX:XX:XX:XX is down
+[1188762.064079] wlan: [3523:W:MLO_MGR] wlan_mlme_start_ap_vdev: Allowing 11be non-MLO operation as per INI configuration
+[1188762.082199] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188762.087530] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188762.097406] wlan: [0:I:CMN_MLME] Sending ucast disassoc to PMF associated stas
+[1188762.102536] wlan: [0:I:CMN_MLME] mlme_ext_vap_down: VAP (wl1) XX:XX:XX:XX:XX:XX is down
+[1188762.108991] wlan: [3523:W:MLO_MGR] wlan_mlme_start_ap_vdev: Allowing 11be non-MLO operation as per INI configuration
+[1188762.128761] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188762.133392] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188762.164222] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188762.168580] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188762.231399] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188762.235749] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188762.496058] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl1) XX:XX:XX:XX:XX:XX is up
+[1188762.500459] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188763.838352] wlan: [6330:I:ANY] wlan_cfg80211_start_ap: Start wl0 psoc:1 vdev:0
+[1188763.838384] wlan: [6330:I:ANY] DES SSID SET=REDACTED_SSID
+[1188763.844870] wlan: [6330:I:ANY] desired hw mode: 42
+[1188763.850264] wlan: [6330:I:ANY] wlan_cfg80211_chan_to_phymode: band:1 width: 3 channel_cfreq: 5240 center_freq1: 5210 chandef.center_freq2: 0 flags: 512
+[1188763.855355] wlan: [6330:I:ANY] HT Support:0ce8f48b VHT Support:224f18ac HE Support:534eb79d
+[1188763.869062] wlan: [6330:I:ANY] Max supported wireless mode: 4
+[1188763.877482] wlan: [6330:I:ANY] Phymode: 41 
+[1188763.883244] wlan: [6330:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[1188763.889599] wlan: [6330:I:MBSSIE] wlan_cfg80211_start_ap: Set tx-vap wl0: vdev_id:0
+[1188763.900102] wlan: [6330:W:MLO_MGR] wlan_mlme_start_ap_vdev: Allowing 11be non-MLO operation as per INI configuration
+[1188763.908311] wlan: [6330:E:MLO_MGR] mlo_ap_get_bridge_vdev_list: Invalid input
+[1188763.926110] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl0) XX:XX:XX:XX:XX:XX is up
+[1188763.931564] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188764.194653] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1188764.496778] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl0) XX:XX:XX:XX:XX:XX is up
+[1188764.501118] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188764.817888] wlan: [0:I:CMN_MLME] mlme_ext_vap_up: VAP (wl0) XX:XX:XX:XX:XX:XX is up
+[1188764.822255] wlan: [0:I:ANY] mlme_ext_vap_up: ML DEV CTX is NULL
+[1188765.240682] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1188767.837754] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188767.873333] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188767.881497] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188767.897597] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188767.920512] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188767.947504] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1188769.652114] miwifi_save_clear_pre_cac: skip_cac_chan_num = 0
+[1188769.694141] miwifi_save_clear_pre_cac: skip_cac_chan_num = 0
+[1188769.752133] wifi (15391): drop_caches: 3
+[1188774.745029] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188774.761090] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188774.776353] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1188774.783729] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188774.808627] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188774.917950] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188774.975509] wlan: [0:E:ANY] ieee80211_parse_mscs_ie: AP is declining this request: MSCS session inactive
+[1188774.983403] wlan: [6330:I:ANY] wlan_cfg80211_set_ap_chanwidth: wlan_cfg80211_set_ap_chanwidth: freq:5240 hw_value:48 ch_width:5 
+[1188774.991957] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1188776.178366] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1188838.428876] wifi_log: [Class 2 - RECV DEAUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.881756] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.917162] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.925092] wifi_log: [Class 1 - RECV AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.951817] wifi_log: [Class 1 - SEND AUTH] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.971089] wifi_log: [Class 2 - RECV ASSOC] - if="wl0", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1188867.995378] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl0
+[1189569.497071] wlan: [0:I:ANY] [INACT] vap-0(wl1): [XX:XX:XX:XX:XX:XX]station kicked out due to excessive retries associd 1 (from target) reason 2
+[1189569.510850] wifi_log: [Class 1 - SEND DEAUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1189575.143992] wifi_log: [Class 1 - RECV AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1189575.153610] wifi_log: [Class 1 - SEND AUTH] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1189575.169830] wifi_log: [Class 2 - RECV ASSOC] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1189575.188494] wifi_log: [Class 2 - SEND ASSOC RSP] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX", 
+[1189575.204742] wlan: [6330:I:ANY] wlan_cfg80211_change_station: Ignore set station for ap vlan wl1
+[1189575.222839] wifi_log: [Set auth Done] - if="wl1", sta_mac="XX:XX:XX:XX:XX:XX",

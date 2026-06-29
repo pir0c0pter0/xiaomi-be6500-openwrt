@@ -1,0 +1,1 @@
+Linux XiaoQiang 5.4.213 #0 SMP PREEMPT Tue May 27 04:14:11 2025 armv7l GNU/Linux

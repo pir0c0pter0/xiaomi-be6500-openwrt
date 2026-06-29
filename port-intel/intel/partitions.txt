@@ -1,0 +1,31 @@
+major minor  #blocks  name
+
+   7        0       8192 loop0
+  31        0       1024 mtdblock0
+  31        1       1024 mtdblock1
+  31        2       1024 mtdblock2
+  31        3        512 mtdblock3
+  31        4        512 mtdblock4
+  31        5       2048 mtdblock5
+  31        6       2048 mtdblock6
+  31        7        512 mtdblock7
+  31        8        512 mtdblock8
+  31        9        512 mtdblock9
+  31       10        512 mtdblock10
+  31       11        512 mtdblock11
+  31       12        512 mtdblock12
+  31       13        512 mtdblock13
+  31       14       1024 mtdblock14
+  31       15       1024 mtdblock15
+  31       16        512 mtdblock16
+  31       17       2048 mtdblock17
+  31       18        256 mtdblock18
+  31       19      43008 mtdblock19
+  31       20      43008 mtdblock20
+  31       21        512 mtdblock21
+  31       22        512 mtdblock22
+  31       23      27392 mtdblock23
+  31       24       3259 mtdblock24
+  31       25      25420 mtdblock25
+  31       26      23560 mtdblock26
+ 254        0       7164 dm-0

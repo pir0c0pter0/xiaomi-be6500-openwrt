@@ -1,0 +1,7 @@
+/upstream-openwrt/
+/build/
+/dl/
+/.config
+/.config.old
+*.log
+
